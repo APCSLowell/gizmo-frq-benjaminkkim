@@ -11,7 +11,7 @@ public class OnlinePurchaseManager
   */
   public int countElectronicsByMaker(String maker) {
     int count = 0;
-    if(getMaker().equals(maker) && isElectronic() = true) {
+    if(getMaker().equals(maker) && isElectronic() == true) {
       count++;
     }
     return count;
